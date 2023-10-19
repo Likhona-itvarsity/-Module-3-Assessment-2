@@ -1,0 +1,229 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: sans-serif;
+
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+}
+
+.body-home{
+    background-image: url(images/menucover01.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+.body-starters{
+    background-image: url(images/splash.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+/*========== HEADER ==========*/
+.header{
+    background-color: silver;
+
+    width: 100%;
+    height: 100px;
+    top:0;
+
+    position: fixed;
+    overflow: visible;
+
+    text-align: center;
+}
+
+.header i{
+    float: left;
+    padding: 17px 0px 8px 17px ;
+    color:black;
+}
+
+.header img{
+    width: 150px;
+    padding-top: 10px;
+    padding-left: 25px; 
+}
+
+/*========== HOME PAGE ==========*/
+
+#home-logo-img{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+#home-logo-text{
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/*========== HOME PAGE MENU ==========*/
+
+.home-menu-item{
+    text-decoration: underline;
+    text-transform: uppercase;
+
+    color:silver;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid silver;
+
+    display:flow-root;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+/*========== STARTERS PAGE ==========*/
+#starters{
+    padding-top: 100px;
+}
+/*========== STARTERS PAGE MENU ==========*/
+
+.starters-list a{
+    text-decoration: dotted;
+}
+
+.starters-list-item{
+    border: 5px solid silver;
+    margin: 10px;
+}
+
+.starters-list-item h1{
+    font-weight: bold;
+    font-size: 25px;
+    color: silver;
+    padding-left: 10px;
+}
+
+.starters-list-item i{
+    float: right;
+    padding-right: 40px;
+
+}
+
+.starters-list-item p{
+    font-size:20px;
+    font-style: oblique;
+    color: silver;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*========== RECIPE PAGE ==========*/
+#recipe{
+    padding-top: 50px;
+}
+/*========== RECIPE DETAILS ==========*/
+
+.recipe-details img{
+    width: 100%;
+}
+
+.recipe-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid silver;
+    margin: 10px;
+    padding: 5px;
+    color: silver;
+}
+
+.recipe-details h2{
+    font-size: 20px;
+    text-align:left;
+    margin: 0;
+    margin-left: 10px;
+    color: silver;
+}
+
+.recipe-details h3{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid silver;
+    margin: 10px;
+    padding: 5px;
+    color: silver;
+}
+
+.recipe-details p{
+    font-size: 20px;
+    text-align:left;
+    margin: 0;
+    margin-left: 10px;
+    color: silver;
+}
+
+.recipe-details-info{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.recipe-details-info p{
+    font-size: 15px;
+    display: inline-block;
+    color: silver;
+}
+
+.recipe-details-ingredients label{
+    line-height: 25px;
+    margin-left: 10px;
+    color: silver;
+}
+
+.recipe-details-price p {
+    padding-left: 30px;
+}
+
+.recipe-details-list {
+    color: silver;
+}
+
+.recipe-details-steps {
+    padding-top: 20px;
+}
+
+.recipe-details-steps ol {
+    padding-left: 35px;
+    color: silver;
+}
+
+.button {
+    background-color: grey;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: silver;
+}
+
+
+
+
+
+
+
+
+
+
+
+
